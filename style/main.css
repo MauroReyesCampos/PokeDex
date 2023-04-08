@@ -1,15 +1,33 @@
 * {
     margin: 0;
     padding: 0;
-    
 }
 
 body {
     background-image: url("../assets/img/background.jpg");
-    background-size: 100% 100%;
+    background-size: 100% auto;
     font-family: 'Orbitron', sans-serif;
+    z-index: 0;
 }
 
 h1 {
     color: white !important;
+}
+
+.card {
+    width: 18rem;
+}
+
+#float-section {
+    background-color: #eceaea;
+    border-radius: 20px;
+    visibility: hidden;
+}
+
+span, .abilities, .types {
+    color: #c70000;
+}
+
+#close-button {
+    padding: 1em .25em;
 }

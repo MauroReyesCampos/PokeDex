@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../assets/lib/bootstrap.min.css" />
+    <link rel="stylesheet" href="../style/bulbasaur.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <main class="container-xxl">
+        <header class="main-header">
+            <nav class="navbar ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html">
+                        <h1 class="fs-1 fw-bold">PokéDex</h1>
+                    </a>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Pokemon name" aria-label="Search"
+                            id="pokemonSearch">
+                        <button class="btn btn-outline-light" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+        </header>
+        <section class="main-section pt-xxl-5">
+            <div class="container mt-xxl-5">
+                <!-- Fila 1 -->
+                <div class="row pt-xxl-3">
+                    <h2 class="text-center fw-bold" id="pokemonTitle">BULBASAUR</h2>
+                    <h4 class="text-center" id="Id"></h4>
+                </div>
+                <!-- Fila 2 -->
+                <div class="row row-cols-2">
+                    <!-- Columna 1 -->
+                    <div class="col text-center">
+                        <img src="../assets/img/pokemon/001.png"  alt="001.png"/>
+                    </div>
+                    <!-- Columna 2 -->
+                    <div class="col">
+                        <div class="row row-cols-2 pt-xxl-3">
+                            <!-- Columna 2-1 -->
+                            <div class="col">
+                                <h5>Base Experience: <span id="base"></span></h5>
+                            </div>
+                            <!-- Columna 2-2 -->
+                            <div class="col">
+                                <h5>Height: <span id="height"></span></h5>
+                            </div>
+                            <!-- Columna 2-3 -->
+                            <div class="col pt-xxl-3">
+                                <h5>Species: <span id="species" class="text-capitalize"></span></h5>
+                            </div>
+                            <!-- Columna 2-4 -->
+                            <div class="col pt-xxl-3">
+                                <h5>Weight: <span id="weight"></span></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        fila 2 - col 1
+                    </div>
+                    <div class="col">
+                        fila 2 - col 1
+                    </div>
+                </div>
+                <div class="row">
+                    fila 3
+                </div>
+            </div>
+        </section>
+        <footer class="text-center mt-xxl-5 mb-xxl-3">&copy; Desarrollada por Mauricio Reyes Campos.</footer>
+    </main>
+    <script type="module" src="../src/bulbasaur.js"></script>
+    <script src="../assets/lib/bootstrap.min.js"></script>
+</body>
+</html>
