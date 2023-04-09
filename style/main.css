@@ -60,7 +60,7 @@ span, .abilities, .types {
         width: 60%;
     }
 
-    h5, h4, .stats, .abilities, .types {
+    h5, h4, .stats, .abilities, .types, footer {
         font-size: 14px;
     }
 
@@ -86,7 +86,7 @@ span, .abilities, .types {
         width: 90%;
     }
 
-    h5, h4, .stats, .abilities, .types {
+    h5, h4, .stats, .abilities, .types, footer {
         font-size: 1rem;
     }
 }
@@ -111,7 +111,7 @@ span, .abilities, .types {
         left: .4rem;
     }
 
-    h5, h4, .stats, .abilities, .types {
+    h5, h4, .stats, .abilities, .types, footer {
         font-size: 1.2rem;
     }
 }
