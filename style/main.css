@@ -4,24 +4,29 @@
 }
 
 body {
-    background-image: url("../assets/img/background.jpg");
+    background-image: url("../assets/img/background.svg");
     background-size: 100% auto;
+    background-position: top;
+    background-repeat: no-repeat;
     font-family: 'Orbitron', sans-serif;
     z-index: 0;
 }
 
 h1 {
     color: white !important;
+    text-shadow: 5px 5px 5px rgb(82, 78, 78);
 }
 
 .card {
     width: 18rem;
+    box-shadow: 8px 8px 8px rgb(82, 78, 78);
 }
 
 #float-section {
     background-color: #eceaea;
     border-radius: 20px;
     visibility: hidden;
+    box-shadow: 8px 8px 8px rgb(82, 78, 78);
 }
 
 span, .abilities, .types {
