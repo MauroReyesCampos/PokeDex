@@ -60,10 +60,10 @@ function createPokemonCard(name, i) {
     const pokeCardBody = document.createElement("div");
     const pokeCardTitle = document.createElement("h5");
 
-    pokeCol.className = "col pt-xxl-3 pb-xxl-3";
+    pokeCol.className = "col pt-2 pb-2 pt-xxl-3 pb-xxl-3";
     pokeLink.className = "link text-decoration-none text-reset";
     pokeLink.href = "#";
-    pokeCard.className = "card";
+    pokeCard.className = "card ms-0";
     pokeImg.src = "./assets/img/pokemon/" + i + ".png";
     pokeImg.className = "card-img-top";
     pokeCardBody.className = "card-body";

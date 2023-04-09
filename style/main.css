@@ -5,7 +5,7 @@
 
 body {
     background-image: url("../assets/img/background.svg");
-    background-size: 100% auto;
+    background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
     font-family: 'Orbitron', sans-serif;
@@ -23,6 +23,7 @@ h1 {
 }
 
 #float-section {
+    top: 8rem;
     background-color: #eceaea;
     border-radius: 20px;
     visibility: hidden;
@@ -35,4 +36,100 @@ span, .abilities, .types {
 
 #close-button {
     padding: 1em .25em;
+}
+
+
+@media (min-width: 375px) { 
+
+    .container {
+        padding: 0;
+    }
+
+    .card {
+        width: 10rem;
+    }
+
+    #float-section {
+        width: 90%;
+        position: absolute !important;
+        top: 5rem;
+        left: 1rem;
+    }
+
+    #pokemon-img {
+        width: 60%;
+    }
+
+    h5, h4, .stats, .abilities, .types {
+        font-size: 14px;
+    }
+
+    .row {
+        margin: 0px 0px !important;
+    }
+
+    #close-button {
+        padding: .5em .5em;
+    }
+}
+
+@media (min-width: 576px) {
+    .card {
+        width: 15rem;
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+
+    #float-section {
+        width: 90%;
+    }
+
+    h5, h4, .stats, .abilities, .types {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-title {
+        font-size: 1.2rem;
+    }
+
+    .card {
+        width: 13rem;
+    }
+
+    #pokemon-img {
+        width: 50%;
+    }
+
+    #float-section {
+        width: 100%;
+        position: absolute !important;
+        top: 8rem;
+        left: .4rem;
+    }
+
+    h5, h4, .stats, .abilities, .types {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 992px) {
+    #pokemon-img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card {
+        width: 15rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    .card {
+        width: 18rem;
+    }
 }
